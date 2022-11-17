@@ -1,0 +1,4 @@
+\main (env: mut ref Env) -> Nat = (
+	env.ffi(printf)("Hello Cygni\n")
+	0
+)
